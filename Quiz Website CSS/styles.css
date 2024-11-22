@@ -7,9 +7,7 @@
 body{
     font-size: 18px;
     font-family: "Lato", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
 }
 
 section{
@@ -67,5 +65,43 @@ button {
     background-color: mediumblue;
     border: none;
     border-radius: 5px;
+    transition: 0.2s all;
+}
+
+button:hover {
     cursor: pointer;
+    background: deepskyblue;
+    color: white;
+}
+
+.team-name{
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    color: gray;
+    text-align: left;
+    padding: 15px;
+}
+
+.welcome-message{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.quiz-themes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+    width: 100px;
+
 }
